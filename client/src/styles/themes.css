@@ -1,0 +1,73 @@
+
+/* =================================
+   AETHERA - AURORA ATMOSPHERE
+   LIGHT THEME
+================================= */
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg-primary: #F2F7FC;
+  --bg-secondary: #E7F0FA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F7FAFF;
+
+  --accent-primary: #2878CE;
+  --accent-secondary: #8B78D6;
+  --accent-warm: #F2A94A;
+
+  --text-primary: #172B46;
+  --text-secondary: #70839C;
+  --text-muted: #98A8BB;
+
+  --border-color: #DFE8F2;
+
+  --shadow-card: 0 8px 30px rgba(38, 83, 130, 0.08);
+  --shadow-hover: 0 12px 35px rgba(38, 83, 130, 0.13);
+
+  --aurora-glow: rgba(139, 120, 214, 0.10);
+  --sky-glow: rgba(40, 120, 206, 0.10);
+
+  --success: #269B70;
+  --danger: #DC626F;
+
+  --input-bg: #FFFFFF;
+  --sidebar-bg: #FFFFFF;
+}
+
+
+/* =================================
+   AETHERA - DARK THEME
+================================= */
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg-primary: #0B1220;
+  --bg-secondary: #111D32;
+  --bg-card: #192943;
+  --bg-card-hover: #213653;
+
+  --accent-primary: #72B7FF;
+  --accent-secondary: #A78BFA;
+  --accent-warm: #FFC979;
+
+  --text-primary: #F4F7FF;
+  --text-secondary: #A7B5CC;
+  --text-muted: #778BA8;
+
+  --border-color: #293C57;
+
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.20);
+  --shadow-hover: 0 12px 35px rgba(0, 0, 0, 0.30);
+
+  --aurora-glow: rgba(167, 139, 250, 0.13);
+  --sky-glow: rgba(114, 183, 255, 0.12);
+
+  --success: #5ED6A1;
+  --danger: #FF7C8A;
+
+  --input-bg: #111D32;
+  --sidebar-bg: #111D32;
+}
