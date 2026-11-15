@@ -11,7 +11,6 @@ import {
 } from "./middleware/errorMiddleware.js";
 import { apiLimiter } from "./middleware/rateLimitMiddleware.js";
 import weatherRoutes from "./routes/weatherRoutes.js";
-import { notFound, errorHandler } from "./middlewares/errorMiddleware.js";
 import { apiLimiter } from "./middlewares/rateLimitMiddleware.js";
 
 
