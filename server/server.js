@@ -5,14 +5,9 @@ import helmet from "helmet";
 
 import { env } from "./config/env.js";
 import healthRoutes from "./routes/healthRoutes.js";
-import {
-  notFound,
-  errorHandler
-} from "./middleware/errorMiddleware.js";
-import { apiLimiter } from "./middleware/rateLimitMiddleware.js";
 import weatherRoutes from "./routes/weatherRoutes.js";
+import { notFound, errorHandler } from "./middlewares/errorMiddleware.js";
 import { apiLimiter } from "./middlewares/rateLimitMiddleware.js";
-
 
 const app = express();
 
@@ -40,7 +35,5 @@ app.use(errorHandler);
 app.listen(env.PORT, () => {
   console.log(`Aethera server running on port ${env.PORT}`);
   console.log(`Environment: ${env.NODE_ENV}`);
-  console.log(
-    `Health check: http://localhost:${env.PORT}/api/health`
-  );
+  console.log(`Health check: http://localhost:${env.PORT}/api/health`);
 });
