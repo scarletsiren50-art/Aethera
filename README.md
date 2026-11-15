@@ -1,8 +1,29 @@
 # 🌤️ Aethera — Weather Intelligence
 
-**A modern, API-driven weather forecasting application built with React and Node.js.**
+<p align="center">
+  <strong>A modern full-stack weather forecasting application</strong>
+</p>
 
-Aethera provides current weather information and five-day forecasts through a responsive interface, powered by the OpenWeatherMap API.
+<p align="center">
+  <a href="https://aethera-bay.vercel.app/">🌐 Live Application</a> •
+  <a href="https://aethera-backend-yuih.onrender.com/api/health">⚙️ Backend API</a> •
+  <a href="https://github.com/scarletsiren50-art/Aethera">📂 GitHub Repository</a>
+</p>
+
+---
+
+## 🌐 Live Demo & Deployment
+
+Aethera is deployed and accessible online.
+
+| Component | Deployment | Link |
+|---|---|---|
+| Frontend | Vercel | [Open Aethera](https://aethera-bay.vercel.app/) |
+| Backend | Render | [Backend API](https://aethera-backend-yuih.onrender.com/) |
+| Backend Health | Render | [Check API Status](https://aethera-backend-yuih.onrender.com/api/health) |
+| Source Code | GitHub | [View Repository](https://github.com/scarletsiren50-art/Aethera) |
+
+**Try Aethera:** Visit the live application, search for a city, and explore its weather information and forecast.
 
 ---
 
